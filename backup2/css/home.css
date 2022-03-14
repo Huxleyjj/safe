@@ -1,0 +1,45 @@
+.home {
+  background: url(../assets/earth.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+}
+
+h2 {
+  color: #152852;
+  text-align: center;
+  font-size: 500%;
+}
+h3 {
+  color: #152852;
+  text-align: center;
+  font-size: 200%;
+}
+
+hr {
+  height: 3px;
+  width: 20%;
+  border-width: 0;
+  color: #152852;
+  background-color: #152852;
+}
+
+/* mobile phone design */
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 300%;
+  }
+
+  h3 {
+    font-size: 100%;
+  }
+}

@@ -1,0 +1,43 @@
+a {
+  color: #152852;
+}
+
+a:hover {
+  color: #ffe373;
+}
+
+.blog-container {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+.blog-container > div {
+  width: 45%;
+  margin: 10px;
+  text-align: center;
+  border: solid black;
+  font-size: 150%;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .bio-content {
+    flex-direction: row;
+  }
+
+  .hobbies-container {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
+/* Medium (641px to 1007px) */
+
+/* Mobile devices (phones, smaller than 640px) */
+
+@media (max-width: 600px) {
+  .blog-container > div {
+    font-size: 50%;
+  }
+}

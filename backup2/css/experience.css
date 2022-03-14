@@ -1,0 +1,95 @@
+.orange {
+  background-color: #fc9c54;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+}
+
+h3 {
+  color: #152852;
+  text-align: center;
+  font-size: 150%;
+}
+
+/* Experience container */
+.experience-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 64px;
+}
+
+.work,
+.study {
+  border: 2px solid #4b3d60;
+  background-color: #fc9c54;
+  min-height: 225px;
+  width: 45%;
+  font-size: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for skill bars */
+
+.experience .skill-container {
+  width: 75%;
+  background-color: #fc9c54;
+}
+
+.experience .skills {
+  text-align: start; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.experience .design {
+  width: 75%;
+  background-color: #4b3d60;
+}
+
+.experience .html {
+  width: 70%;
+  background-color: #4b3d60;
+}
+.experience .css {
+  width: 55%;
+  background-color: #4b3d60;
+}
+.experience .js {
+  width: 5%;
+  background-color: #4b3d60;
+}
+
+.experience .level {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 125%;
+}
+
+hr {
+  height: 3px;
+  width: 100%;
+  border-width: 0;
+  color: #152852;
+  background-color: #152852;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .experience-container {
+    flex-direction: row;
+  }
+}
+
+/* mobile phone design */
+
+@media (max-width: 600px) {
+  .work,
+  .study {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,72 @@
+:root {
+  --footer-height: 50px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.orange {
+  background-color: #fc9c54;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  color: #152852;
+  text-align: center;
+  font-size: 250%;
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  text-align: center;
+  color: black;
+  font-size: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: var(--footer-height);
+}
+
+footer {
+  height: var(--footer-height);
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* mobile phone design */
+
+@media (max-width: 600px) {
+  h2 {
+    font-size: 150%;
+  }
+
+  p {
+    font-size: 75%;
+  }
+}
